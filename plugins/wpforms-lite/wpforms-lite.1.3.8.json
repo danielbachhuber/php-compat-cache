@@ -1,0 +1,81 @@
+{
+    "name": "wpforms-lite",
+    "type": "plugin",
+    "version": "1.3.8",
+    "php_versions": {
+        "5.2": {
+            "file_count": 53,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound",
+                "PHPCompatibility.PHP.EmptyNonVariable.Found"
+            ],
+            "error_count": 4,
+            "warnings": [
+                "PHPCompatibility.PHP.NewIniDirectives.max_input_varsFound"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 53,
+            "errors": [
+                "PHPCompatibility.PHP.EmptyNonVariable.Found"
+            ],
+            "error_count": 3,
+            "warnings": [
+                "PHPCompatibility.PHP.NewIniDirectives.max_input_varsFound"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 53,
+            "errors": [
+                "PHPCompatibility.PHP.EmptyNonVariable.Found"
+            ],
+            "error_count": 3,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 53,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 53,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 53,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 53,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.create_functionDeprecated"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4"
+    ]
+}

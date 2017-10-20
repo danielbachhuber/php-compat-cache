@@ -1,0 +1,84 @@
+{
+    "name": "google-analytics-for-wordpress",
+    "type": "plugin",
+    "version": "6.1.6",
+    "php_versions": {
+        "5.2": {
+            "file_count": 128,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "1": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "5": "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound"
+            },
+            "error_count": 6,
+            "warnings": [
+                "Internal.NoCodeFound"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 128,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.NoCodeFound"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 128,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.NoCodeFound"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 128,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.NoCodeFound"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 128,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.NoCodeFound"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 128,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.NoCodeFound"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 128,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.NoCodeFound"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2"
+    ]
+}

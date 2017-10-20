@@ -1,0 +1,132 @@
+{
+    "name": "woocommerce",
+    "type": "plugin",
+    "version": "3.1.1",
+    "php_versions": {
+        "5.2": {
+            "file_count": 660,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound",
+                "1": "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "17": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound",
+                "18": "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "19": "PHPCompatibility.PHP.NewFunctions.gc_enableFound",
+                "171": "PHPCompatibility.PHP.EmptyNonVariable.Found",
+                "175": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "181": "PHPCompatibility.PHP.NewFunctions.array_columnFound",
+                "185": "PHPCompatibility.PHP.NewClosure.Found",
+                "193": "PHPCompatibility.PHP.NewFunctions.lcfirstFound",
+                "194": "PHPCompatibility.PHP.NewFunctionParameters.debug_backtrace_optionsFound",
+                "197": "PHPCompatibility.PHP.NewFunctionParameters.round_modeFound",
+                "198": "PHPCompatibility.PHP.NewFunctions.openssl_random_pseudo_bytesFound"
+            },
+            "error_count": 203,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.NewIniDirectives.max_input_varsFound",
+                "2": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore"
+            },
+            "warning_count": 5,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 660,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound",
+                "9": "PHPCompatibility.PHP.EmptyNonVariable.Found",
+                "13": "PHPCompatibility.PHP.NewFunctions.array_columnFound"
+            },
+            "error_count": 19,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.NewIniDirectives.max_input_varsFound",
+                "1": "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecated",
+                "3": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "6": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecated"
+            },
+            "warning_count": 7,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 660,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound",
+                "9": "PHPCompatibility.PHP.EmptyNonVariable.Found",
+                "13": "PHPCompatibility.PHP.NewFunctions.array_columnFound"
+            },
+            "error_count": 19,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecated",
+                "1": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "4": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            },
+            "warning_count": 5,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 660,
+            "errors": [],
+            "error_count": 0,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.RemovedExtensions.mysql_Deprecated",
+                "1": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecated",
+                "13": "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecated",
+                "14": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "17": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            },
+            "warning_count": 18,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 660,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved",
+                "1": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "13": "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecatedRemoved"
+            },
+            "error_count": 14,
+            "warnings": {
+                "0": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "3": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            },
+            "warning_count": 4,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 660,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved",
+                "1": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "13": "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecatedRemoved"
+            },
+            "error_count": 14,
+            "warnings": {
+                "0": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "3": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            },
+            "warning_count": 4,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 660,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved",
+                "1": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "13": "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecatedRemoved"
+            },
+            "error_count": 14,
+            "warnings": {
+                "0": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "3": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            },
+            "warning_count": 4,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}
