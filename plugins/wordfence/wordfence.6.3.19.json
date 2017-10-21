@@ -1,0 +1,140 @@
+{
+    "name": "wordfence",
+    "type": "plugin",
+    "version": "6.3.19",
+    "php_versions": {
+        "5.2": {
+            "file_count": 133,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "1": "PHPCompatibility.PHP.NewFunctionParameters.openssl_encrypt_ivFound",
+                "2": "PHPCompatibility.PHP.NewFunctions.random_bytesFound",
+                "3": "PHPCompatibility.PHP.NewClasses.typeerrorFound",
+                "4": "PHPCompatibility.PHP.NewClasses.errorFound",
+                "5": "PHPCompatibility.PHP.NewFunctions.openssl_random_pseudo_bytesFound",
+                "6": "PHPCompatibility.PHP.NewFunctions.random_intFound",
+                "9": "PHPCompatibility.PHP.NewFunctions.error_clear_lastFound",
+                "10": "PHPCompatibility.PHP.NewFunctions.get_called_classFound",
+                "13": "PHPCompatibility.PHP.NewFunctionParameters.spl_autoload_register_prependFound",
+                "14": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "20": "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "26": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound",
+                "27": "PHPCompatibility.PHP.NewTypeCasts.t_binary_castFound",
+                "31": "PHPCompatibility.PHP.NewFunctionParameters.fgetcsv_escapeFound"
+            },
+            "error_count": 34,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.NewIniDirectives.user_ini_filenameFound",
+                "4": "PHPCompatibility.PHP.NewIniDirectives.user_ini_cache_ttlFound"
+            },
+            "warning_count": 10,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 133,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewFunctionParameters.openssl_encrypt_ivFound",
+                "1": "PHPCompatibility.PHP.NewFunctions.random_bytesFound",
+                "2": "PHPCompatibility.PHP.NewClasses.typeerrorFound",
+                "3": "PHPCompatibility.PHP.NewClasses.errorFound",
+                "4": "PHPCompatibility.PHP.NewFunctions.random_intFound",
+                "7": "PHPCompatibility.PHP.NewFunctions.error_clear_lastFound",
+                "8": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound"
+            },
+            "error_count": 12,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_sybaseDeprecated"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 133,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewFunctions.random_bytesFound",
+                "1": "PHPCompatibility.PHP.NewClasses.typeerrorFound",
+                "2": "PHPCompatibility.PHP.NewClasses.errorFound",
+                "3": "PHPCompatibility.PHP.NewFunctions.random_intFound",
+                "6": "PHPCompatibility.PHP.NewFunctions.error_clear_lastFound",
+                "7": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound"
+            },
+            "error_count": 11,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_sybaseDeprecatedRemoved"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 133,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewFunctions.random_bytesFound",
+                "1": "PHPCompatibility.PHP.NewClasses.typeerrorFound",
+                "2": "PHPCompatibility.PHP.NewClasses.errorFound",
+                "3": "PHPCompatibility.PHP.NewFunctions.random_intFound",
+                "6": "PHPCompatibility.PHP.NewFunctions.error_clear_lastFound"
+            },
+            "error_count": 7,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_sybaseDeprecatedRemoved",
+                "1": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecated",
+                "5": "PHPCompatibility.PHP.RemovedExtensions.mysql_Deprecated"
+            },
+            "warning_count": 6,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 133,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "4": "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            },
+            "error_count": 5,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_sybaseDeprecatedRemoved"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 133,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "4": "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            },
+            "error_count": 5,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_create_ivDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_sybaseDeprecatedRemoved"
+            ],
+            "warning_count": 3,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 133,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "4": "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            },
+            "error_count": 5,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_create_ivDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_sybaseDeprecatedRemoved",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.mbstring_func_overloadDeprecated"
+            ],
+            "warning_count": 5,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.6",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}
