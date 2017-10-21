@@ -1,7 +1,7 @@
 php-compat-cache
 ================
 
-Make [danielbachhuber](https://github.com/danielbachhuber/php-compat-command/) faster by using this cache of scan results.
+Make [danielbachhuber/php-compat-command](https://github.com/danielbachhuber/php-compat-command/) faster by using this cache of scan results.
 
 Scan and cache results of the `twentysixteen` theme:
 
