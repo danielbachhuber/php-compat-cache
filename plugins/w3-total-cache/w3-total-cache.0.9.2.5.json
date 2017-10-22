@@ -1,0 +1,128 @@
+{
+    "name": "w3-total-cache",
+    "type": "plugin",
+    "version": "0.9.2.5",
+    "php_versions": {
+        "5.2": {
+            "file_count": 263,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewFunctions.finfo_openFound",
+                "2": "PHPCompatibility.PHP.NewFunctions.finfo_fileFound",
+                "3": "PHPCompatibility.PHP.NewFunctions.finfo_closeFound",
+                "4": "PHPCompatibility.PHP.NewKeywords.t_namespaceFound"
+            },
+            "error_count": 12,
+            "warnings": {
+                "0": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "10": "Internal.LineEndings.Mixed"
+            },
+            "warning_count": 12,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 263,
+            "errors": [],
+            "error_count": 0,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecated",
+                "1": "PHPCompatibility.PHP.DeprecatedNewReference.Deprecated",
+                "2": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "65": "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecated",
+                "105": "Internal.LineEndings.Mixed"
+            },
+            "warning_count": 107,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 263,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecatedRemoved"
+            ],
+            "error_count": 40,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "1": "PHPCompatibility.PHP.DeprecatedNewReference.Deprecated",
+                "2": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "65": "Internal.LineEndings.Mixed"
+            },
+            "warning_count": 67,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 263,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecatedRemoved"
+            ],
+            "error_count": 40,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "1": "PHPCompatibility.PHP.DeprecatedNewReference.Deprecated",
+                "2": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "65": "Internal.LineEndings.Mixed"
+            },
+            "warning_count": 67,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 263,
+            "errors": {
+                "0": "PHPCompatibility.PHP.DeprecatedNewReference.Forbidden",
+                "19": "PHPCompatibility.PHP.RemovedExtensions.mssqlRemoved",
+                "74": "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecatedRemoved"
+            },
+            "error_count": 114,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "1": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "11": "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "39": "Internal.LineEndings.Mixed"
+            },
+            "warning_count": 41,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 263,
+            "errors": {
+                "0": "PHPCompatibility.PHP.DeprecatedNewReference.Forbidden",
+                "19": "PHPCompatibility.PHP.RemovedExtensions.mssqlRemoved",
+                "74": "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecatedRemoved"
+            },
+            "error_count": 114,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "1": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "11": "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "39": "Internal.LineEndings.Mixed"
+            },
+            "warning_count": 41,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 263,
+            "errors": {
+                "0": "PHPCompatibility.PHP.DeprecatedNewReference.Forbidden",
+                "19": "PHPCompatibility.PHP.RemovedExtensions.mssqlRemoved",
+                "74": "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecatedRemoved"
+            },
+            "error_count": 114,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "1": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "11": "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "17": "PHPCompatibility.PHP.DeprecatedIniDirectives.mbstring_func_overloadDeprecated",
+                "41": "Internal.LineEndings.Mixed",
+                "44": "PHPCompatibility.PHP.DeprecatedFunctions.eachDeprecated"
+            },
+            "warning_count": 45,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.4",
+        "5.6",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}

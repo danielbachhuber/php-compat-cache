@@ -1,0 +1,85 @@
+{
+    "name": "shortcodes-ultimate",
+    "type": "plugin",
+    "version": "4.7.0",
+    "php_versions": {
+        "5.2": {
+            "file_count": 18,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.ForbiddenBreakContinueOutsideLoop.Found"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "5.3": {
+            "file_count": 18,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.ForbiddenBreakContinueOutsideLoop.Found"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 18,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.ForbiddenBreakContinueOutsideLoop.Found"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 18,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.ForbiddenBreakContinueOutsideLoop.Found"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 18,
+            "errors": [
+                "PHPCompatibility.PHP.ForbiddenBreakContinueOutsideLoop.FatalError",
+                "PHPCompatibility.PHP.VariableVariables.Found"
+            ],
+            "error_count": 5,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 18,
+            "errors": [
+                "PHPCompatibility.PHP.ForbiddenBreakContinueOutsideLoop.FatalError",
+                "PHPCompatibility.PHP.VariableVariables.Found"
+            ],
+            "error_count": 5,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 18,
+            "errors": [
+                "PHPCompatibility.PHP.ForbiddenBreakContinueOutsideLoop.FatalError",
+                "PHPCompatibility.PHP.VariableVariables.Found"
+            ],
+            "error_count": 5,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}

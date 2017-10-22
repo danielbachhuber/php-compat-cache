@@ -1,0 +1,139 @@
+{
+    "name": "w3-total-cache",
+    "type": "plugin",
+    "version": "0.9.5",
+    "php_versions": {
+        "5.2": {
+            "file_count": 591,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "7": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "203": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound",
+                "229": "PHPCompatibility.PHP.NewFunctions.gethostnameFound",
+                "304": "PHPCompatibility.PHP.NewFunctions.http_response_codeFound",
+                "363": "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound",
+                "651": "PHPCompatibility.PHP.NewClosure.Found",
+                "808": "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "813": "PHPCompatibility.PHP.NewFunctions.get_called_classFound",
+                "815": "PHPCompatibility.PHP.NewFunctions.json_last_errorFound",
+                "822": "PHPCompatibility.PHP.NewFunctions.finfo_openFound",
+                "823": "PHPCompatibility.PHP.NewFunctions.finfo_fileFound",
+                "881": "PHPCompatibility.PHP.NewFunctions.finfo_closeFound"
+            },
+            "error_count": 908,
+            "warnings": {
+                "0": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "10": "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore"
+            },
+            "warning_count": 11,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 591,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.hash_equalsFound",
+                "PHPCompatibility.PHP.NewFunctions.http_response_codeFound"
+            ],
+            "error_count": 3,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecated",
+                "1": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "11": "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore",
+                "17": "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecated"
+            },
+            "warning_count": 57,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 591,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.hash_equalsFound",
+                "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecatedRemoved"
+            ],
+            "error_count": 41,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "1": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "11": "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore"
+            },
+            "warning_count": 17,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 591,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecatedRemoved"
+            ],
+            "error_count": 40,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "1": "PHPCompatibility.PHP.RemovedExtensions.mysql_Deprecated",
+                "18": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "28": "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore"
+            },
+            "warning_count": 34,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 591,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved",
+                "17": "PHPCompatibility.PHP.RemovedExtensions.mssqlRemoved",
+                "41": "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecatedRemoved"
+            },
+            "error_count": 81,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "1": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "11": "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore",
+                "13": "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found"
+            },
+            "warning_count": 38,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 591,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved",
+                "17": "PHPCompatibility.PHP.RemovedExtensions.mssqlRemoved",
+                "41": "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecatedRemoved"
+            },
+            "error_count": 81,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "1": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "11": "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore",
+                "13": "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found"
+            },
+            "warning_count": 38,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 591,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved",
+                "17": "PHPCompatibility.PHP.RemovedExtensions.mssqlRemoved",
+                "41": "PHPCompatibility.PHP.RemovedGlobalVariables.http_server_varsDeprecatedRemoved"
+            },
+            "error_count": 81,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "1": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "11": "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore",
+                "13": "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "16": "PHPCompatibility.PHP.DeprecatedIniDirectives.mbstring_func_overloadDeprecated"
+            },
+            "warning_count": 47,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.6",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}

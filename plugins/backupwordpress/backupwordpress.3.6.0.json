@@ -1,0 +1,84 @@
+{
+    "name": "backupwordpress",
+    "type": "plugin",
+    "version": "3.6.0",
+    "php_versions": {
+        "5.2": {
+            "file_count": 121,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "1": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "15": "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "27": "PHPCompatibility.PHP.NewClosure.Found",
+                "44": "PHPCompatibility.PHP.NewKeywords.t_ns_cFound",
+                "86": "PHPCompatibility.PHP.NewFunctions.get_called_classFound",
+                "128": "PHPCompatibility.PHP.TernaryOperators.MiddleMissing",
+                "170": "PHPCompatibility.PHP.NewFunctions.pcntl_signal_dispatchFound",
+                "173": "PHPCompatibility.PHP.NewTypeCasts.t_binary_castFound",
+                "199": "PHPCompatibility.PHP.NewKeywords.t_start_nowdocFound",
+                "200": "PHPCompatibility.PHP.NewKeywords.t_end_nowdocFound",
+                "274": "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "299": "PHPCompatibility.PHP.NewFunctions.array_replaceFound",
+                "518": "PHPCompatibility.PHP.NewFunctionParameters.iterator_to_array_use_keysFound",
+                "805": "PHPCompatibility.PHP.LateStaticBinding.Found",
+                "935": "PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound",
+                "939": "PHPCompatibility.PHP.NewFunctionParameters.spl_autoload_register_prependFound"
+            },
+            "error_count": 974,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 121,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 121,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 121,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 121,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 121,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 121,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2"
+    ]
+}

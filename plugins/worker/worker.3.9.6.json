@@ -1,0 +1,104 @@
+{
+    "name": "worker",
+    "type": "plugin",
+    "version": "3.9.6",
+    "php_versions": {
+        "5.2": {
+            "file_count": 16,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.finfo_openFound",
+                "PHPCompatibility.PHP.NewFunctions.finfo_fileFound",
+                "PHPCompatibility.PHP.NewFunctions.finfo_closeFound"
+            ],
+            "error_count": 3,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore"
+            ],
+            "warning_count": 4,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 16,
+            "errors": [],
+            "error_count": 0,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.ForbiddenCallTimePassByReference.Deprecated",
+                "2": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore"
+            },
+            "warning_count": 6,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 16,
+            "errors": [
+                "PHPCompatibility.PHP.ForbiddenCallTimePassByReference.NotAllowed"
+            ],
+            "error_count": 2,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore"
+            ],
+            "warning_count": 4,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 16,
+            "errors": [
+                "PHPCompatibility.PHP.ForbiddenCallTimePassByReference.NotAllowed"
+            ],
+            "error_count": 2,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecated",
+                "3": "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore"
+            },
+            "warning_count": 7,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 16,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "3": "PHPCompatibility.PHP.ForbiddenCallTimePassByReference.NotAllowed"
+            },
+            "error_count": 5,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore"
+            ],
+            "warning_count": 4,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 16,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "3": "PHPCompatibility.PHP.ForbiddenCallTimePassByReference.NotAllowed"
+            },
+            "error_count": 5,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore"
+            ],
+            "warning_count": 4,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 16,
+            "errors": {
+                "0": "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "3": "PHPCompatibility.PHP.ForbiddenCallTimePassByReference.NotAllowed"
+            },
+            "error_count": 5,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore"
+            ],
+            "warning_count": 4,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.4",
+        "5.6",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}

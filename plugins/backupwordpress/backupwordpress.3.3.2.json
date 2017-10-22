@@ -1,0 +1,92 @@
+{
+    "name": "backupwordpress",
+    "type": "plugin",
+    "version": "3.3.2",
+    "php_versions": {
+        "5.2": {
+            "file_count": 150,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "1": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "4": "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "32": "PHPCompatibility.PHP.NewClosure.Found",
+                "33": "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "183": "PHPCompatibility.PHP.NewClasses.filesystemiteratorFound",
+                "329": "PHPCompatibility.PHP.NewFunctionParameters.iterator_to_array_use_keysFound",
+                "570": "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_clear_realpath_cacheFound",
+                "891": "PHPCompatibility.PHP.TernaryOperators.MiddleMissing",
+                "980": "PHPCompatibility.PHP.LateStaticBinding.Found",
+                "1551": "PHPCompatibility.PHP.NewFunctionParameters.spl_autoload_register_prependFound",
+                "1563": "PHPCompatibility.PHP.NewFunctions.get_called_classFound"
+            },
+            "error_count": 1623,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 150,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 150,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 150,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_Deprecated"
+            ],
+            "warning_count": 18,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 150,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            ],
+            "error_count": 18,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 150,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            ],
+            "error_count": 18,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 150,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            ],
+            "error_count": 18,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.eachDeprecated"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}

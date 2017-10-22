@@ -1,0 +1,91 @@
+{
+    "name": "backupwordpress",
+    "type": "plugin",
+    "version": "3.6.4",
+    "php_versions": {
+        "5.2": {
+            "file_count": 124,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "1": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "15": "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "27": "PHPCompatibility.PHP.NewClosure.Found",
+                "45": "PHPCompatibility.PHP.NewKeywords.t_ns_cFound",
+                "86": "PHPCompatibility.PHP.NewFunctions.get_called_classFound",
+                "167": "PHPCompatibility.PHP.TernaryOperators.MiddleMissing",
+                "168": "PHPCompatibility.PHP.NewFunctions.pcntl_signal_dispatchFound",
+                "171": "PHPCompatibility.PHP.NewTypeCasts.t_binary_castFound",
+                "201": "PHPCompatibility.PHP.NewKeywords.t_start_nowdocFound",
+                "202": "PHPCompatibility.PHP.NewKeywords.t_end_nowdocFound",
+                "286": "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "312": "PHPCompatibility.PHP.NewFunctions.array_replaceFound",
+                "536": "PHPCompatibility.PHP.NewFunctionParameters.iterator_to_array_use_keysFound",
+                "823": "PHPCompatibility.PHP.LateStaticBinding.Found",
+                "953": "PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound",
+                "963": "PHPCompatibility.PHP.NewMagicClassConstant.Found",
+                "965": "PHPCompatibility.PHP.NewFunctionParameters.spl_autoload_register_prependFound"
+            },
+            "error_count": 1004,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 124,
+            "errors": [
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found"
+            ],
+            "error_count": 1,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 124,
+            "errors": [
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found"
+            ],
+            "error_count": 1,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 124,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 124,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 124,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 124,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4"
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "name": "google-analytics-dashboard-for-wp",
+    "type": "plugin",
+    "version": "4.9.3.2",
+    "php_versions": {
+        "5.2": {
+            "file_count": 65,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound",
+                "1": "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "2": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "6": "Internal.Exception"
+            },
+            "error_count": 7,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 43,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 65,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 1,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 43,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 65,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 1,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 43,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 65,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 1,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 43,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 65,
+            "errors": {
+                "0": "PHPCompatibility.PHP.VariableVariables.Found",
+                "2": "Internal.Exception"
+            },
+            "error_count": 3,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 43,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 65,
+            "errors": {
+                "0": "PHPCompatibility.PHP.VariableVariables.Found",
+                "2": "Internal.Exception"
+            },
+            "error_count": 3,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 43,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 65,
+            "errors": {
+                "0": "PHPCompatibility.PHP.VariableVariables.Found",
+                "2": "Internal.Exception"
+            },
+            "error_count": 3,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 43,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.6",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}

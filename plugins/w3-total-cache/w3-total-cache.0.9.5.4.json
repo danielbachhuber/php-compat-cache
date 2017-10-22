@@ -1,0 +1,141 @@
+{
+    "name": "w3-total-cache",
+    "type": "plugin",
+    "version": "0.9.5.4",
+    "php_versions": {
+        "5.2": {
+            "file_count": 713,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "7": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "224": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound",
+                "250": "PHPCompatibility.PHP.NewFunctions.gethostnameFound",
+                "324": "PHPCompatibility.PHP.NewFunctions.http_response_codeFound",
+                "399": "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound",
+                "720": "PHPCompatibility.PHP.NewClosure.Found",
+                "899": "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "909": "PHPCompatibility.PHP.ShortArray.Found",
+                "917": "PHPCompatibility.PHP.NewKeywords.t_yieldFound",
+                "971": "PHPCompatibility.PHP.TernaryOperators.MiddleMissing",
+                "981": "PHPCompatibility.PHP.NewKeywords.t_callableFound",
+                "982": "PHPCompatibility.PHP.NewScalarTypeDeclarations.callableFound",
+                "1058": "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "1116": "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_clear_realpath_cacheFound",
+                "1117": "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_filenameFound",
+                "1194": "PHPCompatibility.PHP.NewFunctionArrayDereferencing.Found",
+                "1280": "PHPCompatibility.PHP.NewKeywords.t_traitFound",
+                "1375": "PHPCompatibility.PHP.NewClosure.StaticFound",
+                "1415": "PHPCompatibility.PHP.NewClosure.ThisFound",
+                "1751": "PHPCompatibility.PHP.NewKeywords.t_ns_cFound",
+                "1753": "PHPCompatibility.PHP.LateStaticBinding.Found",
+                "1834": "PHPCompatibility.PHP.NewFunctionParameters.http_build_query_enc_typeFound",
+                "1963": "PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound",
+                "1965": "PHPCompatibility.PHP.NewFunctionParameters.stream_context_create_paramsFound",
+                "2017": "PHPCompatibility.PHP.NewFunctions.array_replaceFound",
+                "2018": "PHPCompatibility.PHP.NewFunctions.curl_resetFound",
+                "2249": "PHPCompatibility.PHP.NewFunctionParameters.json_decode_depthFound",
+                "2250": "PHPCompatibility.PHP.NewFunctionParameters.json_decode_optionsFound",
+                "2251": "PHPCompatibility.PHP.NewFunctions.json_last_errorFound",
+                "2253": "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "2256": "PHPCompatibility.PHP.NewFunctionParameters.json_encode_depthFound",
+                "2857": "PHPCompatibility.PHP.NewFunctions.openssl_random_pseudo_bytesFound",
+                "3932": "PHPCompatibility.PHP.NewFunctions.get_called_classFound",
+                "4000": "PHPCompatibility.PHP.NewFunctions.finfo_openFound",
+                "4002": "PHPCompatibility.PHP.NewFunctions.finfo_fileFound",
+                "4003": "PHPCompatibility.PHP.NewFunctions.finfo_closeFound"
+            },
+            "error_count": 4032,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.NewMagicMethods.__invokeFound",
+                "7": "PHPCompatibility.PHP.NewIniDirectives.curl_cainfoFound"
+            },
+            "warning_count": 9,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 713,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound",
+                "1": "PHPCompatibility.PHP.NewFunctions.http_response_codeFound",
+                "3": "PHPCompatibility.PHP.ShortArray.Found",
+                "7": "PHPCompatibility.PHP.NewKeywords.t_yieldFound",
+                "27": "PHPCompatibility.PHP.NewKeywords.t_callableFound",
+                "28": "PHPCompatibility.PHP.NewScalarTypeDeclarations.callableFound",
+                "89": "PHPCompatibility.PHP.NewFunctionArrayDereferencing.Found",
+                "131": "PHPCompatibility.PHP.NewKeywords.t_traitFound",
+                "187": "PHPCompatibility.PHP.NewClosure.StaticFound",
+                "205": "PHPCompatibility.PHP.NewClosure.ThisFound",
+                "387": "PHPCompatibility.PHP.NewFunctionParameters.http_build_query_enc_typeFound",
+                "436": "PHPCompatibility.PHP.NewFunctions.curl_resetFound",
+                "524": "PHPCompatibility.PHP.NewFunctionParameters.json_decode_optionsFound",
+                "525": "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "526": "PHPCompatibility.PHP.NewFunctionParameters.json_encode_depthFound"
+            },
+            "error_count": 614,
+            "warnings": [
+                "PHPCompatibility.PHP.NewIniDirectives.curl_cainfoFound"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 713,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound",
+                "1": "PHPCompatibility.PHP.NewKeywords.t_yieldFound",
+                "3": "PHPCompatibility.PHP.NewFunctions.curl_resetFound",
+                "4": "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "5": "PHPCompatibility.PHP.NewFunctionParameters.json_encode_depthFound"
+            },
+            "error_count": 9,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 713,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 713,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 713,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_encryptDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated"
+            ],
+            "warning_count": 2,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 713,
+            "errors": [],
+            "error_count": 0,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedFunctions.eachDeprecated",
+                "3": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_encryptDeprecated",
+                "4": "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated",
+                "7": "PHPCompatibility.PHP.DeprecatedIniDirectives.mbstring_func_overloadDeprecated"
+            },
+            "warning_count": 14,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4"
+    ]
+}

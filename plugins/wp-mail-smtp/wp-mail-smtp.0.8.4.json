@@ -1,0 +1,86 @@
+{
+    "name": "wp-mail-smtp",
+    "type": "plugin",
+    "version": "0.8.4",
+    "php_versions": {
+        "5.2": {
+            "file_count": 1,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "5.3": {
+            "file_count": 1,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecated"
+            ],
+            "warning_count": 2,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 1,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecated"
+            ],
+            "warning_count": 2,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 1,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecated"
+            ],
+            "warning_count": 2,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 1,
+            "errors": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecatedRemoved",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecatedRemoved"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 1,
+            "errors": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecatedRemoved",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecatedRemoved"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 1,
+            "errors": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecatedRemoved",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecatedRemoved"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "name": "advanced-custom-fields",
+    "type": "plugin",
+    "version": "5.6.3",
+    "php_versions": {
+        "5.2": {
+            "file_count": 113,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound",
+                "PHPCompatibility.PHP.NewFunctions.openssl_random_pseudo_bytesFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.openssl_encrypt_ivFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.openssl_decrypt_ivFound"
+            ],
+            "error_count": 4,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 113,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctionParameters.openssl_encrypt_ivFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.openssl_decrypt_ivFound"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 113,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 113,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 113,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 113,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 113,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3"
+    ]
+}

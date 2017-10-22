@@ -1,0 +1,109 @@
+{
+    "name": "bbpress",
+    "type": "plugin",
+    "version": "2.5.12",
+    "php_versions": {
+        "5.2": {
+            "file_count": 172,
+            "errors": {
+                "0": "PHPCompatibility.PHP.EmptyNonVariable.Found",
+                "2": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound"
+            },
+            "error_count": 4,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 172,
+            "errors": {
+                "0": "PHPCompatibility.PHP.EmptyNonVariable.Found",
+                "2": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound"
+            },
+            "error_count": 4,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.splitDeprecated",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecated"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 172,
+            "errors": {
+                "0": "PHPCompatibility.PHP.EmptyNonVariable.Found",
+                "2": "PHPCompatibility.PHP.NewFunctions.hash_equalsFound"
+            },
+            "error_count": 4,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.splitDeprecated",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 172,
+            "errors": [],
+            "error_count": 0,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.PregReplaceEModifier.Deprecated",
+                "2": "PHPCompatibility.PHP.DeprecatedFunctions.splitDeprecated",
+                "3": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            },
+            "warning_count": 4,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 172,
+            "errors": {
+                "0": "PHPCompatibility.PHP.PregReplaceEModifier.Removed",
+                "2": "PHPCompatibility.PHP.DeprecatedFunctions.splitDeprecatedRemoved"
+            },
+            "error_count": 3,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 172,
+            "errors": {
+                "0": "PHPCompatibility.PHP.PregReplaceEModifier.Removed",
+                "2": "PHPCompatibility.PHP.DeprecatedFunctions.splitDeprecatedRemoved"
+            },
+            "error_count": 3,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 172,
+            "errors": {
+                "0": "PHPCompatibility.PHP.PregReplaceEModifier.Removed",
+                "2": "PHPCompatibility.PHP.DeprecatedFunctions.splitDeprecatedRemoved"
+            },
+            "error_count": 3,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedFunctions.create_functionDeprecated",
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 3,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}

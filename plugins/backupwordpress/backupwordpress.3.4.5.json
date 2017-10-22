@@ -1,0 +1,79 @@
+{
+    "name": "backupwordpress",
+    "type": "plugin",
+    "version": "3.4.5",
+    "php_versions": {
+        "5.2": {
+            "file_count": 93,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "1": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "15": "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "27": "PHPCompatibility.PHP.NewClosure.Found",
+                "41": "PHPCompatibility.PHP.NewKeywords.t_ns_cFound",
+                "220": "PHPCompatibility.PHP.NewFunctionParameters.iterator_to_array_use_keysFound",
+                "417": "PHPCompatibility.PHP.TernaryOperators.MiddleMissing",
+                "507": "PHPCompatibility.PHP.LateStaticBinding.Found",
+                "631": "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "637": "PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound",
+                "641": "PHPCompatibility.PHP.NewFunctionParameters.spl_autoload_register_prependFound",
+                "653": "PHPCompatibility.PHP.NewFunctions.get_called_classFound"
+            },
+            "error_count": 674,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 93,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 93,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 93,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 93,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 93,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 93,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2"
+    ]
+}

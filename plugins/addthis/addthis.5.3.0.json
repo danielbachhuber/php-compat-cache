@@ -1,0 +1,92 @@
+{
+    "name": "addthis",
+    "type": "plugin",
+    "version": "5.3.0",
+    "php_versions": {
+        "5.2": {
+            "file_count": 13,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound"
+            ],
+            "error_count": 1,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 13,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore"
+            ],
+            "warning_count": 2,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 13,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore"
+            ],
+            "warning_count": 2,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 13,
+            "errors": [],
+            "error_count": 0,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.RemovedExtensions.mysql_Deprecated",
+                "2": "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore"
+            },
+            "warning_count": 4,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 13,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            ],
+            "error_count": 2,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 13,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            ],
+            "error_count": 2,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 13,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            ],
+            "error_count": 2,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}

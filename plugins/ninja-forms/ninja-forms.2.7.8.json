@@ -1,0 +1,105 @@
+{
+    "name": "ninja-forms",
+    "type": "plugin",
+    "version": "2.7.8",
+    "php_versions": {
+        "5.2": {
+            "file_count": 200,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound",
+                "Internal.Exception"
+            ],
+            "error_count": 3,
+            "warnings": [
+                "PHPCompatibility.PHP.NewIniDirectives.max_input_nesting_levelFound",
+                "PHPCompatibility.PHP.NewIniDirectives.max_input_varsFound"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 200,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 2,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecated",
+                "PHPCompatibility.PHP.NewIniDirectives.max_input_varsFound"
+            ],
+            "warning_count": 3,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 200,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 2,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 200,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 2,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 200,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 2,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 200,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 2,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 200,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 2,
+            "warnings": {
+                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "1": "PHPCompatibility.PHP.DeprecatedFunctions.eachDeprecated",
+                "3": "PHPCompatibility.PHP.DeprecatedFunctions.create_functionDeprecated"
+            },
+            "warning_count": 4,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.6",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}
