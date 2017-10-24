@@ -1,0 +1,92 @@
+{
+    "name": "wordpress-seo",
+    "type": "plugin",
+    "version": "5.7",
+    "php_versions": {
+        "5.2": {
+            "file_count": 423,
+            "errors": {
+                "0": "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound",
+                "1": "PHPCompatibility.PHP.NewFunctionParameters.http_build_query_enc_typeFound",
+                "2": "PHPCompatibility.PHP.NewFunctionParameters.array_unique_sort_flagsFound",
+                "3": "PHPCompatibility.PHP.NewClasses.errorFound",
+                "4": "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "5": "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "6": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "398": "PHPCompatibility.PHP.NewClosure.Found",
+                "399": "PHPCompatibility.PHP.NewMagicClassConstant.Found",
+                "401": "PHPCompatibility.PHP.NewFunctionParameters.spl_autoload_register_prependFound",
+                "422": "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "457": "PHPCompatibility.PHP.NewKeywords.t_start_nowdocFound",
+                "458": "PHPCompatibility.PHP.NewKeywords.t_end_nowdocFound"
+            },
+            "error_count": 467,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 423,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctionParameters.http_build_query_enc_typeFound",
+                "PHPCompatibility.PHP.NewClasses.errorFound",
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found"
+            ],
+            "error_count": 3,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 423,
+            "errors": [
+                "PHPCompatibility.PHP.NewClasses.errorFound",
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 423,
+            "errors": [
+                "PHPCompatibility.PHP.NewClasses.errorFound"
+            ],
+            "error_count": 1,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 423,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 423,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 423,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.6"
+    ]
+}
