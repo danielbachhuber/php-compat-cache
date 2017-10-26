@@ -1,0 +1,122 @@
+{
+    "name": "jetpack",
+    "type": "plugin",
+    "version": "4.0.4",
+    "php_versions": {
+        "5.2": {
+            "file_count": 362,
+            "errors": [
+                "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound",
+                "PHPCompatibility.PHP.NewFunctions.str_getcsvFound",
+                "PHPCompatibility.PHP.NewFunctions.hash_equalsFound",
+                "PHPCompatibility.PHP.NewFunctions.get_called_classFound",
+                "PHPCompatibility.PHP.NewFunctions.json_last_errorFound"
+            ],
+            "error_count": 19,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound",
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 14,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 362,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.hash_equalsFound"
+            ],
+            "error_count": 3,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound",
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 14,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 362,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.hash_equalsFound"
+            ],
+            "error_count": 3,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound",
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 14,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 362,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecated",
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound",
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 18,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 362,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound"
+            ],
+            "error_count": 16,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 5,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 362,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound"
+            ],
+            "error_count": 16,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 5,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 362,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedGlobalVariables.http_raw_post_dataDeprecatedRemoved",
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound"
+            ],
+            "error_count": 16,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "PHPCompatibility.PHP.DeprecatedFunctions.eachDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.create_functionDeprecated",
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 9,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}
