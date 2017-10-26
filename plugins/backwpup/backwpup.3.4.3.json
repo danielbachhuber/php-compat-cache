@@ -5,78 +5,78 @@
     "php_versions": {
         "5.2": {
             "file_count": 1027,
-            "errors": {
-                "0": "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_clear_realpath_cacheFound",
-                "1": "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_filenameFound",
-                "2": "PHPCompatibility.PHP.NewFunctions.finfo_openFound",
-                "3": "PHPCompatibility.PHP.NewFunctions.finfo_fileFound",
-                "4": "PHPCompatibility.PHP.NewKeywords.t_useFound",
-                "5": "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
-                "8": "PHPCompatibility.PHP.NewClasses.filesystemiteratorFound",
-                "10": "PHPCompatibility.PHP.NewFunctions.openssl_random_pseudo_bytesFound",
-                "11": "PHPCompatibility.PHP.NewFunctionParameters.openssl_encrypt_ivFound",
-                "12": "PHPCompatibility.PHP.NewFunctionParameters.openssl_decrypt_ivFound",
-                "59": "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
-                "64": "PHPCompatibility.PHP.NewKeywords.t_dirFound",
-                "285": "PHPCompatibility.PHP.NewFunctions.class_aliasFound",
-                "322": "PHPCompatibility.PHP.NewFunctions.json_last_errorFound",
-                "325": "PHPCompatibility.PHP.TernaryOperators.MiddleMissing",
-                "338": "PHPCompatibility.PHP.NewClosure.Found",
-                "439": "PHPCompatibility.PHP.LateStaticBinding.Found",
-                "598": "PHPCompatibility.PHP.NewFunctions.curl_file_createFound",
-                "665": "PHPCompatibility.PHP.NewKeywords.t_ns_cFound",
-                "1706": "PHPCompatibility.PHP.NewFunctionParameters.stream_context_create_paramsFound",
-                "2480": "PHPCompatibility.PHP.NewFunctionParameters.iterator_to_array_use_keysFound",
-                "2717": "PHPCompatibility.PHP.NewClasses.splqueueFound",
-                "2799": "PHPCompatibility.PHP.NewKeywords.t_callableFound",
-                "2883": "PHPCompatibility.PHP.NewFunctions.gethostnameFound",
-                "2950": "PHPCompatibility.PHP.NewFunctions.hex2binFound",
-                "2951": "PHPCompatibility.PHP.NewFunctions.quoted_printable_encodeFound",
-                "2959": "PHPCompatibility.PHP.NewKeywords.t_traitFound",
-                "4740": "PHPCompatibility.PHP.NewFunctions.hash_copyFound",
-                "4744": "PHPCompatibility.PHP.NewFunctions.get_called_classFound",
-                "4869": "PHPCompatibility.PHP.NewFunctions.array_replaceFound",
-                "6165": "PHPCompatibility.PHP.NewClasses.globiteratorFound",
-                "6642": "PHPCompatibility.PHP.NewFunctionParameters.stream_wrapper_register_flagsFound",
-                "7024": "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
-                "7785": "PHPCompatibility.PHP.NewFunctions.lcfirstFound",
-                "7790": "PHPCompatibility.PHP.NewFunctionParameters.strstr_before_needleFound"
-            },
+            "errors": [
+                "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "PHPCompatibility.PHP.TernaryOperators.MiddleMissing",
+                "PHPCompatibility.PHP.NewClosure.Found",
+                "PHPCompatibility.PHP.NewFunctionParameters.iterator_to_array_use_keysFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.stream_context_create_paramsFound",
+                "PHPCompatibility.PHP.NewKeywords.t_ns_cFound",
+                "PHPCompatibility.PHP.LateStaticBinding.Found",
+                "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_clear_realpath_cacheFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_filenameFound",
+                "PHPCompatibility.PHP.NewFunctions.array_replaceFound",
+                "PHPCompatibility.PHP.NewFunctions.quoted_printable_encodeFound",
+                "PHPCompatibility.PHP.NewFunctions.lcfirstFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.strstr_before_needleFound",
+                "PHPCompatibility.PHP.NewFunctions.json_last_errorFound",
+                "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.stream_wrapper_register_flagsFound",
+                "PHPCompatibility.PHP.NewFunctions.get_called_classFound",
+                "PHPCompatibility.PHP.NewClasses.globiteratorFound",
+                "PHPCompatibility.PHP.NewClasses.splqueueFound",
+                "PHPCompatibility.PHP.NewKeywords.t_callableFound",
+                "PHPCompatibility.PHP.NewFunctions.openssl_random_pseudo_bytesFound",
+                "PHPCompatibility.PHP.NewFunctions.hex2binFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.openssl_encrypt_ivFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.openssl_decrypt_ivFound",
+                "PHPCompatibility.PHP.NewFunctions.curl_file_createFound",
+                "PHPCompatibility.PHP.NewClasses.filesystemiteratorFound",
+                "PHPCompatibility.PHP.NewFunctions.finfo_openFound",
+                "PHPCompatibility.PHP.NewFunctions.finfo_fileFound",
+                "PHPCompatibility.PHP.NewKeywords.t_traitFound",
+                "PHPCompatibility.PHP.NewFunctions.class_aliasFound",
+                "PHPCompatibility.PHP.NewFunctions.gethostnameFound",
+                "PHPCompatibility.PHP.NewFunctions.hash_copyFound"
+            ],
             "error_count": 8296,
-            "warnings": {
-                "0": "PHPCompatibility.PHP.NewMagicMethods.__invokeFound",
-                "3": "PHPCompatibility.PHP.NewMagicMethods.__callstaticFound"
-            },
+            "warnings": [
+                "PHPCompatibility.PHP.NewMagicMethods.__invokeFound",
+                "PHPCompatibility.PHP.NewMagicMethods.__callstaticFound"
+            ],
             "warning_count": 5,
             "status": "failure"
         },
         "5.3": {
             "file_count": 1027,
-            "errors": {
-                "0": "PHPCompatibility.PHP.NewFunctionParameters.openssl_encrypt_ivFound",
-                "1": "PHPCompatibility.PHP.NewFunctionParameters.openssl_decrypt_ivFound",
-                "2": "PHPCompatibility.PHP.NewFunctions.curl_file_createFound",
-                "3": "PHPCompatibility.PHP.NewKeywords.t_callableFound",
-                "9": "PHPCompatibility.PHP.NewFunctions.hex2binFound",
-                "10": "PHPCompatibility.PHP.NewKeywords.t_traitFound",
-                "16": "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound"
-            },
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "PHPCompatibility.PHP.NewKeywords.t_callableFound",
+                "PHPCompatibility.PHP.NewFunctions.hex2binFound",
+                "PHPCompatibility.PHP.NewFunctions.curl_file_createFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.openssl_encrypt_ivFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.openssl_decrypt_ivFound",
+                "PHPCompatibility.PHP.NewKeywords.t_traitFound"
+            ],
             "error_count": 17,
-            "warnings": {
-                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_runtimeDeprecated",
-                "2": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecated",
-                "7": "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecated"
-            },
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_runtimeDeprecated",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecated"
+            ],
             "warning_count": 9,
             "status": "failure"
         },
         "5.4": {
             "file_count": 1027,
-            "errors": {
-                "0": "PHPCompatibility.PHP.NewFunctions.curl_file_createFound",
-                "1": "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_runtimeDeprecatedRemoved",
-                "7": "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound"
-            },
+            "errors": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_runtimeDeprecatedRemoved",
+                "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "PHPCompatibility.PHP.NewFunctions.curl_file_createFound"
+            ],
             "error_count": 8,
             "warnings": [
                 "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
@@ -100,63 +100,63 @@
         },
         "7.0": {
             "file_count": 1027,
-            "errors": {
-                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_runtimeDeprecatedRemoved",
-                "2": "PHPCompatibility.PHP.ForbiddenNegativeBitshift.Found",
-                "7": "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecatedRemoved"
-            },
+            "errors": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_runtimeDeprecatedRemoved",
+                "PHPCompatibility.PHP.ForbiddenNegativeBitshift.Found",
+                "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecatedRemoved"
+            ],
             "error_count": 9,
-            "warnings": {
-                "0": "PHPCompatibility.PHP.ForbiddenNamesAsDeclared.resourceFound",
-                "9": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
-            },
+            "warnings": [
+                "PHPCompatibility.PHP.ForbiddenNamesAsDeclared.resourceFound",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
             "warning_count": 25,
             "status": "failure"
         },
         "7.1": {
             "file_count": 1027,
-            "errors": {
-                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_runtimeDeprecatedRemoved",
-                "2": "PHPCompatibility.PHP.ForbiddenNegativeBitshift.Found",
-                "7": "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecatedRemoved"
-            },
+            "errors": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_runtimeDeprecatedRemoved",
+                "PHPCompatibility.PHP.ForbiddenNegativeBitshift.Found",
+                "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecatedRemoved"
+            ],
             "error_count": 9,
-            "warnings": {
-                "0": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_encryptDeprecated",
-                "1": "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated",
-                "4": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_decryptDeprecated",
-                "12": "PHPCompatibility.PHP.ForbiddenNamesAsDeclared.resourceFound",
-                "21": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
-                "22": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_module_openDeprecated",
-                "24": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_generic_initDeprecated",
-                "26": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_create_ivDeprecated",
-                "28": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_enc_get_iv_sizeDeprecated",
-                "30": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_genericDeprecated"
-            },
+            "warnings": [
+                "PHPCompatibility.PHP.ForbiddenNamesAsDeclared.resourceFound",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_module_openDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_generic_initDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_create_ivDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_enc_get_iv_sizeDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_genericDeprecated",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_encryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_decryptDeprecated"
+            ],
             "warning_count": 49,
             "status": "failure"
         },
         "7.2": {
             "file_count": 1027,
-            "errors": {
-                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_runtimeDeprecatedRemoved",
-                "2": "PHPCompatibility.PHP.ForbiddenNegativeBitshift.Found",
-                "7": "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecatedRemoved"
-            },
+            "errors": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.magic_quotes_runtimeDeprecatedRemoved",
+                "PHPCompatibility.PHP.ForbiddenNegativeBitshift.Found",
+                "PHPCompatibility.PHP.DeprecatedFunctions.set_magic_quotes_runtimeDeprecatedRemoved"
+            ],
             "error_count": 9,
-            "warnings": {
-                "0": "PHPCompatibility.PHP.DeprecatedIniDirectives.mbstring_func_overloadDeprecated",
-                "2": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_encryptDeprecated",
-                "3": "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated",
-                "6": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_decryptDeprecated",
-                "14": "PHPCompatibility.PHP.ForbiddenNamesAsDeclared.resourceFound",
-                "23": "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
-                "24": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_module_openDeprecated",
-                "26": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_generic_initDeprecated",
-                "28": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_create_ivDeprecated",
-                "30": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_enc_get_iv_sizeDeprecated",
-                "32": "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_genericDeprecated"
-            },
+            "warnings": [
+                "PHPCompatibility.PHP.ForbiddenNamesAsDeclared.resourceFound",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.mbstring_func_overloadDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_module_openDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_generic_initDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_create_ivDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_enc_get_iv_sizeDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_genericDeprecated",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_encryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_decryptDeprecated"
+            ],
             "warning_count": 53,
             "status": "failure"
         }
