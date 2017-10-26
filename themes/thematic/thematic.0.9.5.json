@@ -1,0 +1,106 @@
+{
+    "name": "thematic",
+    "type": "theme",
+    "version": "0.9.5",
+    "php_versions": {
+        "5.2": {
+            "file_count": 40,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "5.3": {
+            "file_count": 40,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed",
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.ereg_replaceDeprecated"
+            ],
+            "warning_count": 7,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 40,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed",
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.ereg_replaceDeprecated"
+            ],
+            "warning_count": 7,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 40,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed",
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.ereg_replaceDeprecated"
+            ],
+            "warning_count": 7,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 40,
+            "errors": [
+                "PHPCompatibility.PHP.VariableVariables.Found",
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecatedRemoved",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecatedRemoved",
+                "PHPCompatibility.PHP.DeprecatedFunctions.ereg_replaceDeprecatedRemoved"
+            ],
+            "error_count": 24,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 40,
+            "errors": [
+                "PHPCompatibility.PHP.VariableVariables.Found",
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecatedRemoved",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecatedRemoved",
+                "PHPCompatibility.PHP.DeprecatedFunctions.ereg_replaceDeprecatedRemoved"
+            ],
+            "error_count": 24,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 40,
+            "errors": [
+                "PHPCompatibility.PHP.VariableVariables.Found",
+                "PHPCompatibility.PHP.DeprecatedFunctions.eregDeprecatedRemoved",
+                "PHPCompatibility.PHP.RemovedExtensions.eregDeprecatedRemoved",
+                "PHPCompatibility.PHP.DeprecatedFunctions.ereg_replaceDeprecatedRemoved"
+            ],
+            "error_count": 24,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}
