@@ -1,0 +1,113 @@
+{
+    "name": "jetpack",
+    "type": "plugin",
+    "version": "2.7.3",
+    "php_versions": {
+        "5.2": {
+            "file_count": 179,
+            "errors": [
+                "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "PHPCompatibility.PHP.NewFunctions.get_called_classFound",
+                "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "PHPCompatibility.PHP.NewFunctions.json_last_errorFound",
+                "Internal.Exception"
+            ],
+            "error_count": 14,
+            "warnings": [
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound"
+            ],
+            "warning_count": 12,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 179,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 1,
+            "warnings": [
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound"
+            ],
+            "warning_count": 12,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 179,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 1,
+            "warnings": [
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound"
+            ],
+            "warning_count": 12,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 179,
+            "errors": [
+                "Internal.Exception"
+            ],
+            "error_count": 1,
+            "warnings": [
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound"
+            ],
+            "warning_count": 12,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 179,
+            "errors": [
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound",
+                "Internal.Exception"
+            ],
+            "error_count": 13,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found"
+            ],
+            "warning_count": 18,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 179,
+            "errors": [
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound",
+                "Internal.Exception"
+            ],
+            "error_count": 13,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_encryptDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated"
+            ],
+            "warning_count": 20,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 179,
+            "errors": [
+                "PHPCompatibility.PHP.ValidIntegers.HexNumericStringFound",
+                "Internal.Exception"
+            ],
+            "error_count": 13,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "PHPCompatibility.PHP.DeprecatedFunctions.eachDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.create_functionDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_encryptDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated"
+            ],
+            "warning_count": 23,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.6",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}
