@@ -1,0 +1,68 @@
+{
+    "name": "sucuri-scanner",
+    "type": "plugin",
+    "version": "1.8.10",
+    "php_versions": {
+        "5.2": {
+            "file_count": 35,
+            "errors": [
+                "PHPCompatibility.PHP.NewClasses.filesystemiteratorFound"
+            ],
+            "error_count": 4,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 35,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 35,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 35,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 35,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 35,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 35,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2"
+    ]
+}
