@@ -1,0 +1,167 @@
+{
+    "name": "updraftplus",
+    "type": "plugin",
+    "version": "1.9.13",
+    "php_versions": {
+        "5.2": {
+            "file_count": 355,
+            "errors": [
+                "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.spl_autoload_register_prependFound",
+                "PHPCompatibility.PHP.NewFunctions.json_last_errorFound",
+                "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "PHPCompatibility.PHP.LateStaticBinding.Found",
+                "PHPCompatibility.PHP.TernaryOperators.MiddleMissing",
+                "PHPCompatibility.PHP.NewFunctions.lcfirstFound",
+                "PHPCompatibility.PHP.NewClosure.Found",
+                "PHPCompatibility.PHP.NewFunctionParameters.strstr_before_needleFound",
+                "PHPCompatibility.PHP.NewKeywords.t_ns_cFound",
+                "PHPCompatibility.PHP.NewFunctions.class_aliasFound",
+                "PHPCompatibility.PHP.NewFunctions.curl_file_createFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_clear_realpath_cacheFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_filenameFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.stream_context_create_paramsFound",
+                "PHPCompatibility.PHP.NewFunctions.finfo_openFound",
+                "PHPCompatibility.PHP.NewFunctions.finfo_fileFound",
+                "PHPCompatibility.PHP.NewFunctions.finfo_closeFound",
+                "PHPCompatibility.PHP.NewFunctions.finfo_bufferFound",
+                "PHPCompatibility.PHP.NewFunctions.stream_context_get_paramsFound",
+                "PHPCompatibility.PHP.NewFunctions.openssl_random_pseudo_bytesFound",
+                "PHPCompatibility.PHP.NewFunctions.hash_pbkdf2Found"
+            ],
+            "error_count": 2212,
+            "warnings": [
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore"
+            ],
+            "warning_count": 12,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 355,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "PHPCompatibility.PHP.NewFunctions.curl_file_createFound",
+                "PHPCompatibility.PHP.NewFunctions.hash_pbkdf2Found"
+            ],
+            "error_count": 3,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecated",
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore"
+            ],
+            "warning_count": 16,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 355,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "PHPCompatibility.PHP.NewFunctions.curl_file_createFound",
+                "PHPCompatibility.PHP.NewFunctions.hash_pbkdf2Found"
+            ],
+            "error_count": 3,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore"
+            ],
+            "warning_count": 16,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 355,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_Deprecated",
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "PHPCompatibility.PHP.PregReplaceEModifier.Deprecated"
+            ],
+            "warning_count": 28,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 355,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved",
+                "PHPCompatibility.PHP.ForbiddenGlobalVariableVariable.Found",
+                "PHPCompatibility.PHP.PregReplaceEModifier.Removed"
+            ],
+            "error_count": 13,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "PHPCompatibility.PHP.ForbiddenNamesAsDeclared.resourceFound",
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found"
+            ],
+            "warning_count": 48,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 355,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved",
+                "PHPCompatibility.PHP.ForbiddenGlobalVariableVariable.Found",
+                "PHPCompatibility.PHP.PregReplaceEModifier.Removed"
+            ],
+            "error_count": 13,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "PHPCompatibility.PHP.ForbiddenNamesAsDeclared.resourceFound",
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_create_ivDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_encryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_decryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_list_algorithmsDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_module_closeDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_generic_initDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_genericDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mdecrypt_genericDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_module_openDeprecated"
+            ],
+            "warning_count": 101,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 355,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved",
+                "PHPCompatibility.PHP.ForbiddenGlobalVariableVariable.Found",
+                "PHPCompatibility.PHP.PregReplaceEModifier.Removed"
+            ],
+            "error_count": 13,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "PHPCompatibility.PHP.ForbiddenNamesAsDeclared.resourceFound",
+                "Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_create_ivDeprecated",
+                "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_encryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_decryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedPHP4StyleConstructors.Found",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_list_algorithmsDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_module_closeDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_generic_initDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_genericDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mdecrypt_genericDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_module_openDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.create_functionDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.eachDeprecated"
+            ],
+            "warning_count": 104,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}
