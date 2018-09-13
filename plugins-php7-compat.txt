@@ -1,0 +1,2 @@
+# Plugins and the minimum version they have formal PHP 7 compat.
+woocommerce,3.3.0
