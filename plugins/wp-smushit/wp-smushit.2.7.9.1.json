@@ -1,0 +1,88 @@
+{
+    "name": "wp-smushit",
+    "type": "plugin",
+    "version": "2.7.9.1",
+    "php_versions": {
+        "5.2": {
+            "file_count": 24,
+            "errors": [
+                "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "PHPCompatibility.PHP.NewClasses.finfoFound",
+                "PHPCompatibility.PHP.NewConstants.fileinfo_mime_typeFound"
+            ],
+            "error_count": 10,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 24,
+            "errors": [
+                "PHPCompatibility.PHP.ForbiddenNames.__dir__Found"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 24,
+            "errors": [
+                "PHPCompatibility.PHP.ForbiddenNames.__dir__Found"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 24,
+            "errors": [
+                "PHPCompatibility.PHP.ForbiddenNames.__dir__Found"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 24,
+            "errors": [
+                "PHPCompatibility.PHP.ForbiddenNames.__dir__Found"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 24,
+            "errors": [
+                "PHPCompatibility.PHP.ForbiddenNames.__dir__Found"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 24,
+            "errors": [
+                "PHPCompatibility.PHP.ForbiddenNames.__dir__Found"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.6",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}

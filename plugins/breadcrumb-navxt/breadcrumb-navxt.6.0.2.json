@@ -1,0 +1,87 @@
+{
+    "name": "breadcrumb-navxt",
+    "type": "plugin",
+    "version": "6.0.2",
+    "php_versions": {
+        "5.2": {
+            "file_count": 12,
+            "errors": [
+                "PHPCompatibility.PHP.DynamicAccessToStatic.Found",
+                "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound",
+                "PHPCompatibility.PHP.NewConstants.json_unescaped_slashesFound"
+            ],
+            "error_count": 17,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 12,
+            "errors": [
+                "PHPCompatibility.PHP.NewConstants.json_unescaped_slashesFound"
+            ],
+            "error_count": 1,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 12,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 12,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 12,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 12,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 12,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3"
+    ]
+}

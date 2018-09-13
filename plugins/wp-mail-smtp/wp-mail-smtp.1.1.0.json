@@ -1,0 +1,190 @@
+{
+    "name": "wp-mail-smtp",
+    "type": "plugin",
+    "version": "1.1.0",
+    "php_versions": {
+        "5.2": {
+            "file_count": 327,
+            "errors": [
+                "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "PHPCompatibility.PHP.NewClosure.Found",
+                "PHPCompatibility.PHP.NewFunctions.json_last_errorFound",
+                "PHPCompatibility.PHP.NewConstants.json_error_noneFound",
+                "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "PHPCompatibility.PHP.ArgumentFunctionsUsage.InParameterList",
+                "PHPCompatibility.PHP.TernaryOperators.MiddleMissing",
+                "PHPCompatibility.PHP.ShortArray.Found",
+                "PHPCompatibility.PHP.NewKeywords.t_callableFound",
+                "PHPCompatibility.PHP.NewScalarTypeDeclarations.callableFound",
+                "PHPCompatibility.PHP.NewConstants.e_user_deprecatedFound",
+                "PHPCompatibility.PHP.DynamicAccessToStatic.Found",
+                "PHPCompatibility.PHP.NewClassMemberAccess.OnNewFound",
+                "PHPCompatibility.PHP.NewClasses.typeerrorFound",
+                "PHPCompatibility.PHP.NewFunctionArrayDereferencing.Found",
+                "PHPCompatibility.PHP.NewKeywords.t_traitFound",
+                "PHPCompatibility.PHP.NewClosure.ThisFound",
+                "PHPCompatibility.PHP.NewFunctions.random_bytesFound",
+                "PHPCompatibility.PHP.NewFunctions.openssl_random_pseudo_bytesFound",
+                "PHPCompatibility.PHP.NewConstantScalarExpressions.propertyFound",
+                "PHPCompatibility.PHP.NewClasses.closureFound",
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found",
+                "PHPCompatibility.PHP.NewFunctionParameters.spl_autoload_register_prependFound",
+                "PHPCompatibility.PHP.NewConstants.php_version_idFound",
+                "PHPCompatibility.PHP.LateStaticBinding.Found",
+                "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound",
+                "PHPCompatibility.PHP.NewConstants.json_unescaped_slashesFound",
+                "PHPCompatibility.PHP.NewConstants.json_unescaped_unicodeFound",
+                "PHPCompatibility.PHP.NewConstants.json_error_utf8Found",
+                "PHPCompatibility.PHP.NewConstants.json_error_depthFound",
+                "PHPCompatibility.PHP.NewConstants.json_error_state_mismatchFound",
+                "PHPCompatibility.PHP.NewConstants.json_error_ctrl_charFound",
+                "PHPCompatibility.PHP.NewFunctions.gethostnameFound",
+                "PHPCompatibility.PHP.NewConstants.json_pretty_printFound",
+                "PHPCompatibility.PHP.NewFunctions.array_replaceFound",
+                "PHPCompatibility.PHP.NewConstants.e_deprecatedFound",
+                "PHPCompatibility.PHP.NewClasses.datetimeimmutableFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.debug_backtrace_optionsFound",
+                "PHPCompatibility.PHP.NewConstants.debug_backtrace_ignore_argsFound",
+                "PHPCompatibility.PHP.NewKeywords.t_yieldFound",
+                "PHPCompatibility.PHP.NewClosure.ClassRefFound",
+                "PHPCompatibility.PHP.NewClasses.messageformatterFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.http_build_query_enc_typeFound",
+                "PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.stream_context_create_paramsFound",
+                "PHPCompatibility.PHP.NewConstants.curlopt_progressfunctionFound",
+                "PHPCompatibility.PHP.NewFunctions.curl_resetFound",
+                "PHPCompatibility.PHP.NewConstants.curlopt_protocolsFound",
+                "PHPCompatibility.PHP.NewConstants.curlopt_timeout_msFound",
+                "PHPCompatibility.PHP.NewConstants.curlopt_connecttimeout_msFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.json_decode_depthFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.json_decode_optionsFound",
+                "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.json_encode_depthFound",
+                "PHPCompatibility.PHP.NewClosure.StaticFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_clear_realpath_cacheFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_filenameFound"
+            ],
+            "error_count": 3577,
+            "warnings": [
+                "PHPCompatibility.PHP.NewMagicMethods.__invokeFound",
+                "PHPCompatibility.PHP.NewMagicMethods.__debuginfoFound",
+                "PHPCompatibility.PHP.NewMagicMethods.__callstaticFound",
+                "PHPCompatibility.PHP.NewIniDirectives.curl_cainfoFound"
+            ],
+            "warning_count": 26,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 327,
+            "errors": [
+                "PHPCompatibility.PHP.ShortArray.Found",
+                "PHPCompatibility.PHP.NewKeywords.t_callableFound",
+                "PHPCompatibility.PHP.NewScalarTypeDeclarations.callableFound",
+                "PHPCompatibility.PHP.NewClassMemberAccess.OnNewFound",
+                "PHPCompatibility.PHP.NewClasses.typeerrorFound",
+                "PHPCompatibility.PHP.NewFunctionArrayDereferencing.Found",
+                "PHPCompatibility.PHP.NewKeywords.t_traitFound",
+                "PHPCompatibility.PHP.NewClosure.ThisFound",
+                "PHPCompatibility.PHP.NewFunctions.random_bytesFound",
+                "PHPCompatibility.PHP.NewConstantScalarExpressions.propertyFound",
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found",
+                "PHPCompatibility.PHP.NewConstants.json_unescaped_slashesFound",
+                "PHPCompatibility.PHP.NewConstants.json_unescaped_unicodeFound",
+                "PHPCompatibility.PHP.NewConstants.json_error_utf8Found",
+                "PHPCompatibility.PHP.NewConstants.json_pretty_printFound",
+                "PHPCompatibility.PHP.NewClasses.datetimeimmutableFound",
+                "PHPCompatibility.PHP.NewConstants.debug_backtrace_ignore_argsFound",
+                "PHPCompatibility.PHP.NewKeywords.t_yieldFound",
+                "PHPCompatibility.PHP.NewClosure.ClassRefFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.http_build_query_enc_typeFound",
+                "PHPCompatibility.PHP.NewFunctions.curl_resetFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.json_decode_optionsFound",
+                "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.json_encode_depthFound",
+                "PHPCompatibility.PHP.NewClosure.StaticFound"
+            ],
+            "error_count": 827,
+            "warnings": [
+                "PHPCompatibility.PHP.NewMagicMethods.__debuginfoFound",
+                "PHPCompatibility.PHP.NewIniDirectives.curl_cainfoFound"
+            ],
+            "warning_count": 2,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 327,
+            "errors": [
+                "PHPCompatibility.PHP.NewClasses.typeerrorFound",
+                "PHPCompatibility.PHP.NewFunctions.random_bytesFound",
+                "PHPCompatibility.PHP.NewConstantScalarExpressions.propertyFound",
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found",
+                "PHPCompatibility.PHP.NewClasses.datetimeimmutableFound",
+                "PHPCompatibility.PHP.NewKeywords.t_yieldFound",
+                "PHPCompatibility.PHP.NewFunctions.curl_resetFound",
+                "PHPCompatibility.PHP.NewFunctions.json_last_error_msgFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.json_encode_depthFound"
+            ],
+            "error_count": 16,
+            "warnings": [
+                "PHPCompatibility.PHP.NewMagicMethods.__debuginfoFound"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 327,
+            "errors": [
+                "PHPCompatibility.PHP.NewClasses.typeerrorFound",
+                "PHPCompatibility.PHP.NewFunctions.random_bytesFound"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 327,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 327,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_create_ivDeprecated",
+                "PHPCompatibility.PHP.RemovedConstants.mcrypt_dev_urandomDeprecated"
+            ],
+            "warning_count": 5,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 327,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mcryptDeprecatedRemoved",
+                "PHPCompatibility.PHP.DeprecatedFunctions.mcrypt_create_ivDeprecatedRemoved",
+                "PHPCompatibility.PHP.RemovedConstants.mcrypt_dev_urandomDeprecatedRemoved"
+            ],
+            "error_count": 5,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.mbstring_func_overloadDeprecated",
+                "PHPCompatibility.PHP.DeprecatedFunctions.eachDeprecated"
+            ],
+            "warning_count": 4,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.6",
+        "7.2"
+    ]
+}

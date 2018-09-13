@@ -1,0 +1,88 @@
+{
+    "name": "all-in-one-wp-migration",
+    "type": "plugin",
+    "version": "6.74",
+    "php_versions": {
+        "5.2": {
+            "file_count": 122,
+            "errors": [
+                "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "PHPCompatibility.PHP.ArgumentFunctionsUsage.InParameterList"
+            ],
+            "error_count": 2,
+            "warnings": [
+                "PHPCompatibility.PHP.NewMagicMethods.__debuginfoFound"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 122,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.NewMagicMethods.__debuginfoFound"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "5.4": {
+            "file_count": 122,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.NewMagicMethods.__debuginfoFound"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 122,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_Deprecated"
+            ],
+            "warning_count": 9,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 122,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            ],
+            "error_count": 9,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.1": {
+            "file_count": 122,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            ],
+            "error_count": 9,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.2": {
+            "file_count": 122,
+            "errors": [
+                "PHPCompatibility.PHP.RemovedExtensions.mysql_DeprecatedRemoved"
+            ],
+            "error_count": 9,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.mbstring_func_overloadDeprecated"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "7.0",
+        "7.1",
+        "7.2"
+    ]
+}

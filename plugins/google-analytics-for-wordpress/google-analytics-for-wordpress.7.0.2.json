@@ -1,0 +1,75 @@
+{
+    "name": "google-analytics-for-wordpress",
+    "type": "plugin",
+    "version": "7.0.2",
+    "php_versions": {
+        "5.2": {
+            "file_count": 78,
+            "errors": [
+                "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "PHPCompatibility.PHP.NewFunctions.hash_equalsFound"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 78,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.hash_equalsFound"
+            ],
+            "error_count": 1,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 78,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.hash_equalsFound"
+            ],
+            "error_count": 1,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 78,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 78,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 78,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 78,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4"
+    ]
+}

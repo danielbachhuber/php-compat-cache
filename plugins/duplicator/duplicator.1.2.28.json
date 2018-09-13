@@ -1,0 +1,102 @@
+{
+    "name": "duplicator",
+    "type": "plugin",
+    "version": "1.2.28",
+    "php_versions": {
+        "5.2": {
+            "file_count": 85,
+            "errors": [
+                "PHPCompatibility.PHP.ArgumentFunctionsUsage.InParameterList",
+                "PHPCompatibility.PHP.NewFunctions.openssl_random_pseudo_bytesFound",
+                "PHPCompatibility.PHP.NewConstants.json_error_noneFound",
+                "PHPCompatibility.PHP.NewConstants.json_error_depthFound",
+                "PHPCompatibility.PHP.NewConstants.json_error_state_mismatchFound",
+                "PHPCompatibility.PHP.NewConstants.json_error_ctrl_charFound",
+                "PHPCompatibility.PHP.NewConstants.json_error_syntaxFound",
+                "PHPCompatibility.PHP.NewConstants.json_error_utf8Found",
+                "PHPCompatibility.PHP.NewFunctions.json_last_errorFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound",
+                "PHPCompatibility.PHP.NewFunctions.random_bytesFound"
+            ],
+            "error_count": 19,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 85,
+            "errors": [
+                "PHPCompatibility.PHP.NewConstants.json_error_utf8Found",
+                "PHPCompatibility.PHP.NewFunctions.random_bytesFound"
+            ],
+            "error_count": 3,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecated"
+            ],
+            "warning_count": 11,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 85,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.random_bytesFound"
+            ],
+            "error_count": 1,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 11,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 85,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.random_bytesFound"
+            ],
+            "error_count": 1,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 11,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 85,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 11,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 85,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved"
+            ],
+            "warning_count": 11,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 85,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.safe_modeDeprecatedRemoved",
+                "PHPCompatibility.PHP.DeprecatedFunctions.create_functionDeprecated",
+                "PHPCompatibility.PHP.DeprecatedIniDirectives.mbstring_func_overloadDeprecated"
+            ],
+            "warning_count": 15,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.6"
+    ]
+}

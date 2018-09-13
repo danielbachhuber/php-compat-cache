@@ -1,0 +1,73 @@
+{
+    "name": "addthis",
+    "type": "plugin",
+    "version": "6.1.2",
+    "php_versions": {
+        "5.2": {
+            "file_count": 30,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.json_encode_optionsFound",
+                "PHPCompatibility.PHP.NewConstants.json_unescaped_slashesFound"
+            ],
+            "error_count": 13,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 30,
+            "errors": [
+                "PHPCompatibility.PHP.NewConstants.json_unescaped_slashesFound"
+            ],
+            "error_count": 2,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 30,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "5.6": {
+            "file_count": 30,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 30,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 30,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 30,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3"
+    ]
+}

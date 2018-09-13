@@ -1,0 +1,115 @@
+{
+    "name": "wordpress-seo",
+    "type": "plugin",
+    "version": "7.7.3",
+    "php_versions": {
+        "5.2": {
+            "file_count": 453,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.parse_ini_file_scanner_modeFound",
+                "PHPCompatibility.PHP.NewConstants.ini_scanner_rawFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.http_build_query_enc_typeFound",
+                "PHPCompatibility.PHP.NewConstants.php_version_idFound",
+                "PHPCompatibility.PHP.ArgumentFunctionsUsage.InParameterList",
+                "PHPCompatibility.PHP.NewClasses.errorFound",
+                "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "PHPCompatibility.PHP.NewConstantScalarExpressions.propertyFound",
+                "PHPCompatibility.PHP.NewClasses.closureFound",
+                "PHPCompatibility.PHP.NewClosure.Found",
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found",
+                "PHPCompatibility.PHP.NewFunctionParameters.spl_autoload_register_prependFound",
+                "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "PHPCompatibility.PHP.NewConstants.t_dirFound",
+                "PHPCompatibility.PHP.NewConstants.t_gotoFound",
+                "PHPCompatibility.PHP.NewConstants.t_namespaceFound",
+                "PHPCompatibility.PHP.NewConstants.t_ns_cFound",
+                "PHPCompatibility.PHP.NewConstants.t_ns_separatorFound",
+                "PHPCompatibility.PHP.NewConstants.t_useFound",
+                "PHPCompatibility.PHP.NewConstants.t_traitFound",
+                "PHPCompatibility.PHP.NewConstants.t_trait_cFound",
+                "PHPCompatibility.PHP.NewConstants.t_finallyFound",
+                "PHPCompatibility.PHP.NewConstants.t_yieldFound",
+                "PHPCompatibility.PHP.NewKeywords.t_start_nowdocFound",
+                "PHPCompatibility.PHP.NewKeywords.t_end_nowdocFound"
+            ],
+            "error_count": 535,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 453,
+            "errors": [
+                "PHPCompatibility.PHP.NewFunctionParameters.http_build_query_enc_typeFound",
+                "PHPCompatibility.PHP.NewClasses.errorFound",
+                "PHPCompatibility.PHP.NewConstantScalarExpressions.propertyFound",
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found",
+                "PHPCompatibility.PHP.NewConstants.t_traitFound",
+                "PHPCompatibility.PHP.NewConstants.t_trait_cFound",
+                "PHPCompatibility.PHP.NewConstants.t_finallyFound",
+                "PHPCompatibility.PHP.NewConstants.t_yieldFound"
+            ],
+            "error_count": 12,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 453,
+            "errors": [
+                "PHPCompatibility.PHP.NewClasses.errorFound",
+                "PHPCompatibility.PHP.NewConstantScalarExpressions.propertyFound",
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found",
+                "PHPCompatibility.PHP.NewConstants.t_finallyFound",
+                "PHPCompatibility.PHP.NewConstants.t_yieldFound"
+            ],
+            "error_count": 8,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 453,
+            "errors": [
+                "PHPCompatibility.PHP.NewClasses.errorFound"
+            ],
+            "error_count": 1,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "failure"
+        },
+        "7.0": {
+            "file_count": 453,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 453,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 453,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [],
+            "warning_count": 0,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.6"
+    ]
+}

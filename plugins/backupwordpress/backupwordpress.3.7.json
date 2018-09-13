@@ -1,0 +1,117 @@
+{
+    "name": "backupwordpress",
+    "type": "plugin",
+    "version": "3.7",
+    "php_versions": {
+        "5.2": {
+            "file_count": 160,
+            "errors": [
+                "PHPCompatibility.PHP.NewKeywords.t_namespaceFound",
+                "PHPCompatibility.PHP.NewLanguageConstructs.t_ns_separatorFound",
+                "PHPCompatibility.PHP.NewKeywords.t_useFound",
+                "PHPCompatibility.PHP.NewClosure.Found",
+                "PHPCompatibility.PHP.NewKeywords.t_ns_cFound",
+                "PHPCompatibility.PHP.NewConstants.e_deprecatedFound",
+                "PHPCompatibility.PHP.NewFunctions.get_called_classFound",
+                "PHPCompatibility.PHP.TernaryOperators.MiddleMissing",
+                "PHPCompatibility.PHP.NewConstants.php_binaryFound",
+                "PHPCompatibility.PHP.NewFunctions.pcntl_signal_dispatchFound",
+                "PHPCompatibility.PHP.NewTypeCasts.t_binary_castFound",
+                "PHPCompatibility.PHP.NewKeywords.t_start_nowdocFound",
+                "PHPCompatibility.PHP.NewKeywords.t_end_nowdocFound",
+                "PHPCompatibility.PHP.NewKeywords.t_dirFound",
+                "PHPCompatibility.PHP.NewFunctions.array_replaceFound",
+                "PHPCompatibility.PHP.NewConstants.e_user_deprecatedFound",
+                "PHPCompatibility.PHP.NewClasses.filesystemiteratorFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.iterator_to_array_use_keysFound",
+                "PHPCompatibility.PHP.NewFunctionParameters.clearstatcache_clear_realpath_cacheFound",
+                "PHPCompatibility.PHP.NewConstants.php_version_idFound",
+                "PHPCompatibility.PHP.LateStaticBinding.Found",
+                "PHPCompatibility.PHP.NewClasses.closureFound",
+                "PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound",
+                "PHPCompatibility.PHP.ArgumentFunctionsUsage.InParameterList",
+                "PHPCompatibility.PHP.NewConstantScalarExpressions.propertyFound",
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found",
+                "PHPCompatibility.PHP.NewFunctionParameters.spl_autoload_register_prependFound"
+            ],
+            "error_count": 1587,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.3": {
+            "file_count": 160,
+            "errors": [
+                "PHPCompatibility.PHP.NewConstants.php_binaryFound",
+                "PHPCompatibility.PHP.NewConstantScalarExpressions.propertyFound",
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found"
+            ],
+            "error_count": 17,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.4": {
+            "file_count": 160,
+            "errors": [
+                "PHPCompatibility.PHP.NewConstantScalarExpressions.propertyFound",
+                "PHPCompatibility.PHP.NewMagicClassConstant.Found"
+            ],
+            "error_count": 2,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "failure"
+        },
+        "5.6": {
+            "file_count": 160,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "7.0": {
+            "file_count": 160,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "7.1": {
+            "file_count": 160,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        },
+        "7.2": {
+            "file_count": 160,
+            "errors": [],
+            "error_count": 0,
+            "warnings": [
+                "Internal.LineEndings.Mixed"
+            ],
+            "warning_count": 1,
+            "status": "success"
+        }
+    },
+    "failed_php_versions": [
+        "5.2",
+        "5.3",
+        "5.4"
+    ]
+}
