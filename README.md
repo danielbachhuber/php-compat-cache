@@ -5,7 +5,11 @@ Make [danielbachhuber/php-compat-command](https://github.com/danielbachhuber/php
 
 Scan and cache results of the `twentysixteen` theme:
 
-    wp --require=danielbachhuber/php-compat-command/bin/php-compat-cache.php php-compat-cache theme twentysixteen ~/php-compat-cache
+    wp php-compat-cache theme twentysixteen ~/php-compat-cache
+
+Or scan and cache results of all plugins already tracked in cache:
+
+    ls ~/php-compat-cache/plugins | xargs -I % wp php-compat-cache plugin % ~/php-compat-cache > plugin.log 2>&1
 
 Then, use the cache results when scanning a WordPress install:
 
