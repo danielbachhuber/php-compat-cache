@@ -1,2 +1,10 @@
 # Plugins and the minimum version they have formal PHP 7 compat.
+bbpress,2.5.13
+fusion-builder,1.2.1
+fusion-core,3.2
+jetpack,6.4
+js_composer,5.2
+LayerSlider,6.0.5
+the-events-calendar,4.6
 woocommerce,3.3.0
+wordpress-importer,0.6.4

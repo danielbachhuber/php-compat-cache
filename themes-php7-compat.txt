@@ -1,0 +1,3 @@
+# Themes and the minimum version they have formal PHP 7 compat.
+Avada,5.2.1
+bridge,16
